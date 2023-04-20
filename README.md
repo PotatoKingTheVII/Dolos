@@ -24,7 +24,7 @@
   * [Requirements](#requirements)
 
 
-## Overview + features
+## Overview + Features
 
 Most PNG LSB steganography programs embed their payload in a predictable and obvious fashion. Be that along rows/columns, or sequentially in any fixed pattern throughout the image. Even in noisy images this makes detection trivial:
 
@@ -35,7 +35,7 @@ Most PNG LSB steganography programs embed their payload in a predictable and obv
 
 <br>
 
-Dolos instead embeds data in a random pattern and only in pixels that don't stand out if their LSB is altered, making detection much harder and exceling in difficult situations with little noise/detail to hide payloads. After increasing contrast as before we can't see an obvious payload, and it's only looking at the difference between the original image the edits become apparent:
+Dolos instead embeds data in a random pattern and only in pixels that don't stand out if their LSB is altered, making detection much harder and excelling in difficult situations with little noise/detail to hide payloads. After increasing contrast as before we can't see an obvious payload, and it's only looking at the difference between the original image the edits become apparent:
 
 ![enter image description here](https://i.imgur.com/cDHWg2g.png)
 *Left: same contrast + payload as before but with Dolos. Right: difference with original file showing altered LSB*
