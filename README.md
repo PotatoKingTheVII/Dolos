@@ -40,7 +40,7 @@ Dolos instead embeds data in a random pattern and only in pixels that don't stan
 ![enter image description here](https://i.imgur.com/cDHWg2g.png)
 *Left: same contrast + payload as before but with Dolos. Right: difference with original file showing altered LSB*
 
-Dolos has only selected pixels that wouldn't stand out (e.g. no pixels in the middle of letters with solid areas of white were chosen). Channels can either be treated together (as above) with the -g option to avoid situations where only embeded pixels would not be greyscale, or separately to maximise capacity with each channel having a seperate distribution best suiting its situation.
+Dolos has only selected pixels that wouldn't stand out (e.g. no pixels in the middle of letters with solid areas of white were chosen). Channels can either be treated together (as above) with the -g option to avoid situations where only embedded pixels would not be greyscale, or separately to maximise capacity with each channel having a seperate distribution best suiting its situation.
 
 <br>
 
@@ -115,7 +115,7 @@ Embedding payload with password:
 
 Extracting payload:
 
-    python dolos.py image_payload_embeded.png -r -p password123
+    python dolos.py image_payload_embedded.png -r -p password123
 
 ### Requirements
 Can be installed the usual way with `pip install x`
