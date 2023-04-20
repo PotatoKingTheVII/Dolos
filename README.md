@@ -1,7 +1,10 @@
 <br/>
 <p align="center">
-  <a href="https://github.com//ReadME-Generator">
+  <a href="https://github.com/PotatoKingTheVII/Dolos#gh-light-mode-only" gh-light-mode-only>
     <img src="https://i.imgur.com/35jTSXO.png#gh-light-mode-only" alt="Logo" width="500px">
+  </a>
+
+  <a href="https://github.com/PotatoKingTheVII/Dolos#gh-dark-mode-only" gh-light-mode-only>
     <img src="https://i.imgur.com/ZZF4H9C.png#gh-dark-mode-only" alt="Logo" width="500px">
   </a>
 
